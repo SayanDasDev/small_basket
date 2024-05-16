@@ -65,7 +65,7 @@ function CartDrawer() {
             </DrawerDescription>
           </Button>
         </DrawerHeader>
-        <div className="max-h-[50vh] w-full px-4 md:px-10 flex flex-col gap-6 mx-auto overflow-y-scroll no-scrollbar">
+        <div className="max-h-[50vh] w-full px-4 md:px-10 flex flex-col gap-4 mx-auto overflow-y-scroll no-scrollbar">
           {product.map((product, index) => {
             return (
               <CartProduct key={index} product={product} />
