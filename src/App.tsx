@@ -3,6 +3,7 @@ import Hero from "./components/shared/hero";
 import Footer from "./components/shared/footer";
 import ProductCard from "./components/shared/product-card";
 import Products from "../data/products.json";
+import CartDrawer from "./components/shared/cart-drawer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div className="bg-accent/70 relative">
         <Footer />
       </div>
+      <CartDrawer />
     </>
   );
 }
